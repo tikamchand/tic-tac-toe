@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+nav {
+  height: 65px;
+  width: 100%;
+  background-color: dodgerblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  
+}
+.gameContainer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 10vw);
+  grid-template-rows: repeat(3, 10vw);
+  margin-right: 40px;
+  font-weight: 700;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8vw;
+  border: 2px solid black;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  
+}
+.boxes:hover{
+    background-color: rgb(206, 230, 255);
+}
+.btn{
+     padding: 5px;
+     width: 90px;
+     height: 40px;
+     margin: 2vw;
+     color: white;
+     background-color: dodgerblue;
+     border: none;
+     font-size: 20px;
+     cursor: pointer;
+}
+.info{
+    font-size: 2vw;
+}
+.imgBox img {
+  width: 0px;
+  transition: width 2s ease-in-out;
+}
+.bt-0 {
+  border-top: 0;
+}
+.br-0 {
+  border-right: 0;
+}
+.bl-0 {
+  border-left: 0;
+}
+.bb-0 {
+  border-bottom: 0;
+}
